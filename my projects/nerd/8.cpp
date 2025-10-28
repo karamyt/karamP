@@ -3,7 +3,7 @@ using namespace std;
 
 int  main ()    {
 
-int x = 0 ;
+int x  ;
 
 cout << "Enter the number you want the sum of it from 1 to your  number      " << endl ;
 cout << "---------------------------------------------------------" << endl ;
