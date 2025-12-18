@@ -1,0 +1,25 @@
+# C++ build artifacts
+*.exe
+*.o
+*.obj
+*.dll
+*.iobj
+*.ipdb
+*.pdb
+*.tlog
+
+# VS Code
+.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json
+# Keep config if user wants, but typically settings.json can be local. 
+# User saw warning about c_cpp_properties.json, maybe ignore that one specifically or just allow .vscode generally. 
+# Plan said ".vscode/ (optional)". Let's ignore complete .vscode folder but keep tasks/launch if they exist (good practice), 
+# but simply:
+.vscode/
+
+# Build directories
+build/
+bin/
+debug/
+release/
