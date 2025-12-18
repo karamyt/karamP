@@ -75,6 +75,7 @@ while (n > 0) {
 
 // Start of c++1.cpp
 namespace c__1 {
+    
 
 
 
